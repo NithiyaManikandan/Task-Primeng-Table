@@ -1,0 +1,51 @@
+<p-table [value]="productList">
+  <ng-template pTemplate="header">
+    <tr>
+      <th *ngFor="let col of cols">
+        {{ col.header }}
+      </th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-pro>
+    <tr>
+      <ng-container *ngFor="let col of cols">
+        <td *ngIf="col.field == 'id'">
+          {{ pro[col.field] }}
+        </td>
+        <td
+          *ngIf="
+            col.field != 'images' && col.field != 'action' && col.field != 'id'
+          "
+        >
+          {{ pro[col.field] }}
+        </td>
+        <td *ngIf="col.field == 'images'">
+          <img src="{{ pro[col.field] }}" width="40" height="40" alt="" />
+        </td>
+        <td class="action" *ngIf="col.field == 'action'">
+          <button
+            pButton
+            type="button"
+            icon="pi pi-pencil"
+            class="p-button-rounded p-button-text"
+            (click)="getEditproductId(pro.id)"
+          ></button>
+          <button
+            pButton
+            (click)="deleteProduct(pro.id)"
+            type="button"
+            icon="pi pi-trash"
+            class="p-button-rounded p-button-text"
+          ></button>
+        </td>
+      </ng-container>
+    </tr>
+  </ng-template>
+</p-table>
+<p-paginator
+  *ngIf="pagination"
+  [rows]="productLimit"
+  [totalRecords]="totalLength"
+  [rowsPerPageOptions]="rowsPerPageOption"
+  (onPageChange)="navigateToPage($event)"
+></p-paginator>

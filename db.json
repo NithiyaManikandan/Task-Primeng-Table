@@ -1,0 +1,508 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 549,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "Apple2",
+      "category": "smartphones",
+      "images": [
+        "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202003/2020-iPhone-SE-2-comes-with-be.jpeg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "iPhone X",
+      "description": "SIM-Free,Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.44,
+      "stock": 34,
+      "brand": "Apple",
+      "category": "smartphones",
+      "images": [
+        "https://m.media-amazon.com/images/I/61E8b9NbWoL._SL1500_.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Samsung Universe 9",
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "price": 1249,
+      "discountPercentage": 15.46,
+      "rating": 4.09,
+      "stock": 36,
+      "brand": "Samsung",
+      "category": "smartphones",
+      "images": [
+        "https://2.bp.blogspot.com/-jFW67EZStMo/W1-GY0uqMJI/AAAAAAAAE8U/y1ssu7JVNYARmViOZOd2lNM_j82YjhZQACLcBGAs/s1600/samsung-galaxy-note-9.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "OPPOF19",
+      "description": "OPPO F19 is officially announced on April 2021.",
+      "price": 280,
+      "discountPercentage": 17.91,
+      "rating": 4.3,
+      "stock": 123,
+      "brand": "OPPO",
+      "category": "smartphones",
+      "images": [
+        "https://s3b.cashify.in/gpro/uploads/2021/07/02195558/Oppo-F19-Pro.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Huawei P30",
+      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+      "price": 499,
+      "discountPercentage": 10.58,
+      "rating": 4.09,
+      "stock": 32,
+      "brand": "Huawei",
+      "category": "smartphones",
+      "images": [
+        "https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2019/03/Huawei-P30-Pro_Blue.jpg?fit=1200%2C800&ssl=1"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "MacBook Pro",
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "price": 1749,
+      "discountPercentage": 11.02,
+      "rating": 4.57,
+      "stock": 83,
+      "brand": "Apple",
+      "category": "laptops",
+      "images": [
+        "https://www.apple.com/newsroom/images/product/mac/standard/Apple_MacBook-Pro_14-16-inch_10182021_big.jpg.large.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Samsung Galaxy Book",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "price": 1499,
+      "discountPercentage": 4.15,
+      "rating": 4.25,
+      "stock": 50,
+      "brand": "Samsung",
+      "category": "laptops",
+      "images": [
+        "https://image-us.samsung.com/SamsungUS/computing/windows-laptops/galaxy-book-pro/02_Design_02_Blue_13Wifi_MO_Asset.jpg?$feature-benefit-bottom-mobile-jpg$"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Microsoft Surface Laptop 4",
+      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+      "price": 1499,
+      "discountPercentage": 10.23,
+      "rating": 4.43,
+      "stock": 68,
+      "brand": "Microsoft Surface",
+      "category": "laptops",
+      "images": [
+        "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4MCcc"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Infinix INBOOK",
+      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+      "price": 1099,
+      "discountPercentage": 11.83,
+      "rating": 4.54,
+      "stock": 96,
+      "brand": "Infinix",
+      "category": "laptops",
+      "images": [
+        "https://infinix-staging-s3.s3.ap-south-1.amazonaws.com/media/eikfkv5p/1000x1497_0000s_0000s_0001_5.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 549,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones",
+      "images": [
+        "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202003/2020-iPhone-SE-2-comes-with-be.jpeg"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "iPhone X",
+      "description": "SIM-Free,Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.44,
+      "stock": 34,
+      "brand": "Apple",
+      "category": "smartphones",
+      "images": [
+        "https://m.media-amazon.com/images/I/61E8b9NbWoL._SL1500_.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Samsung Universe 9",
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "price": 1249,
+      "discountPercentage": 15.46,
+      "rating": 4.09,
+      "stock": 36,
+      "brand": "Samsung",
+      "category": "smartphones",
+      "images": [
+        "https://2.bp.blogspot.com/-jFW67EZStMo/W1-GY0uqMJI/AAAAAAAAE8U/y1ssu7JVNYARmViOZOd2lNM_j82YjhZQACLcBGAs/s1600/samsung-galaxy-note-9.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "OPPOF19",
+      "description": "OPPO F19 is officially announced on April 2021.",
+      "price": 280,
+      "discountPercentage": 17.91,
+      "rating": 4.3,
+      "stock": 123,
+      "brand": "OPPO",
+      "category": "smartphones",
+      "images": [
+        "https://s3b.cashify.in/gpro/uploads/2021/07/02195558/Oppo-F19-Pro.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Huawei P30",
+      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+      "price": 499,
+      "discountPercentage": 10.58,
+      "rating": 4.09,
+      "stock": 32,
+      "brand": "Huawei",
+      "category": "smartphones",
+      "images": [
+        "https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2019/03/Huawei-P30-Pro_Blue.jpg?fit=1200%2C800&ssl=1"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "MacBook Pro",
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "price": 1749,
+      "discountPercentage": 11.02,
+      "rating": 4.57,
+      "stock": 83,
+      "brand": "Apple",
+      "category": "laptops",
+      "images": [
+        "https://www.apple.com/newsroom/images/product/mac/standard/Apple_MacBook-Pro_14-16-inch_10182021_big.jpg.large.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Samsung Galaxy Book",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "price": 1499,
+      "discountPercentage": 4.15,
+      "rating": 4.25,
+      "stock": 50,
+      "brand": "Samsung",
+      "category": "laptops",
+      "images": [
+        "https://image-us.samsung.com/SamsungUS/computing/windows-laptops/galaxy-book-pro/02_Design_02_Blue_13Wifi_MO_Asset.jpg?$feature-benefit-bottom-mobile-jpg$"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Microsoft Surface Laptop 4",
+      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+      "price": 1499,
+      "discountPercentage": 10.23,
+      "rating": 4.43,
+      "stock": 68,
+      "brand": "Microsoft Surface",
+      "category": "laptops",
+      "images": [
+        "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4MCcc"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Infinix INBOOK",
+      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+      "price": 1099,
+      "discountPercentage": 11.83,
+      "rating": 4.54,
+      "stock": 96,
+      "brand": "Infinix",
+      "category": "laptops",
+      "images": [
+        "https://infinix-staging-s3.s3.ap-south-1.amazonaws.com/media/eikfkv5p/1000x1497_0000s_0000s_0001_5.jpg"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 549,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones",
+      "images": [
+        "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202003/2020-iPhone-SE-2-comes-with-be.jpeg"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "iPhone X",
+      "description": "SIM-Free,Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.44,
+      "stock": 34,
+      "brand": "Apple",
+      "category": "smartphones",
+      "images": [
+        "https://m.media-amazon.com/images/I/61E8b9NbWoL._SL1500_.jpg"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Samsung Universe 9",
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "price": 1249,
+      "discountPercentage": 15.46,
+      "rating": 4.09,
+      "stock": 36,
+      "brand": "Samsung",
+      "category": "smartphones",
+      "images": [
+        "https://2.bp.blogspot.com/-jFW67EZStMo/W1-GY0uqMJI/AAAAAAAAE8U/y1ssu7JVNYARmViOZOd2lNM_j82YjhZQACLcBGAs/s1600/samsung-galaxy-note-9.jpg"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "OPPOF19",
+      "description": "OPPO F19 is officially announced on April 2021.",
+      "price": 280,
+      "discountPercentage": 17.91,
+      "rating": 4.3,
+      "stock": 123,
+      "brand": "OPPO",
+      "category": "smartphones",
+      "images": [
+        "https://s3b.cashify.in/gpro/uploads/2021/07/02195558/Oppo-F19-Pro.jpg"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Huawei P30",
+      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+      "price": 499,
+      "discountPercentage": 10.58,
+      "rating": 4.09,
+      "stock": 32,
+      "brand": "Huawei",
+      "category": "smartphones",
+      "images": [
+        "https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2019/03/Huawei-P30-Pro_Blue.jpg?fit=1200%2C800&ssl=1"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "MacBook Pro",
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "price": 1749,
+      "discountPercentage": 11.02,
+      "rating": 4.57,
+      "stock": 83,
+      "brand": "Apple",
+      "category": "laptops",
+      "images": [
+        "https://www.apple.com/newsroom/images/product/mac/standard/Apple_MacBook-Pro_14-16-inch_10182021_big.jpg.large.jpg"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Samsung Galaxy Book",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "price": 1499,
+      "discountPercentage": 4.15,
+      "rating": 4.25,
+      "stock": 50,
+      "brand": "Samsung",
+      "category": "laptops",
+      "images": [
+        "https://image-us.samsung.com/SamsungUS/computing/windows-laptops/galaxy-book-pro/02_Design_02_Blue_13Wifi_MO_Asset.jpg?$feature-benefit-bottom-mobile-jpg$"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Microsoft Surface Laptop 4",
+      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+      "price": 1499,
+      "discountPercentage": 10.23,
+      "rating": 4.43,
+      "stock": 68,
+      "brand": "Microsoft Surface",
+      "category": "laptops",
+      "images": [
+        "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4MCcc"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Infinix INBOOK",
+      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+      "price": 1099,
+      "discountPercentage": 11.83,
+      "rating": 4.54,
+      "stock": 96,
+      "brand": "Infinix",
+      "category": "laptops",
+      "images": [
+        "https://infinix-staging-s3.s3.ap-south-1.amazonaws.com/media/eikfkv5p/1000x1497_0000s_0000s_0001_5.jpg"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 549,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones",
+      "images": [
+        "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202003/2020-iPhone-SE-2-comes-with-be.jpeg"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "iPhone X",
+      "description": "SIM-Free,Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.44,
+      "stock": 34,
+      "brand": "Apple",
+      "category": "smartphones",
+      "images": [
+        "https://m.media-amazon.com/images/I/61E8b9NbWoL._SL1500_.jpg"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Samsung Universe 9",
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "price": 1249,
+      "discountPercentage": 15.46,
+      "rating": 4.09,
+      "stock": 36,
+      "brand": "Samsung",
+      "category": "smartphones",
+      "images": [
+        "https://2.bp.blogspot.com/-jFW67EZStMo/W1-GY0uqMJI/AAAAAAAAE8U/y1ssu7JVNYARmViOZOd2lNM_j82YjhZQACLcBGAs/s1600/samsung-galaxy-note-9.jpg"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "OPPOF19",
+      "description": "OPPO F19 is officially announced on April 2021.",
+      "price": 280,
+      "discountPercentage": 17.91,
+      "rating": 4.3,
+      "stock": 123,
+      "brand": "OPPO",
+      "category": "smartphones",
+      "images": [
+        "https://s3b.cashify.in/gpro/uploads/2021/07/02195558/Oppo-F19-Pro.jpg"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Huawei P30",
+      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+      "price": 499,
+      "discountPercentage": 10.58,
+      "rating": 4.09,
+      "stock": 32,
+      "brand": "Huawei",
+      "category": "smartphones",
+      "images": [
+        "https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2019/03/Huawei-P30-Pro_Blue.jpg?fit=1200%2C800&ssl=1"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "MacBook Pro",
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "price": 1749,
+      "discountPercentage": 11.02,
+      "rating": 4.57,
+      "stock": 83,
+      "brand": "Apple",
+      "category": "laptops",
+      "images": [
+        "https://www.apple.com/newsroom/images/product/mac/standard/Apple_MacBook-Pro_14-16-inch_10182021_big.jpg.large.jpg"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Samsung Galaxy Book",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "price": 1499,
+      "discountPercentage": 4.15,
+      "rating": 4.25,
+      "stock": 50,
+      "brand": "Samsung",
+      "category": "laptops",
+      "images": [
+        "https://image-us.samsung.com/SamsungUS/computing/windows-laptops/galaxy-book-pro/02_Design_02_Blue_13Wifi_MO_Asset.jpg?$feature-benefit-bottom-mobile-jpg$"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Microsoft Surface Laptop 4",
+      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+      "price": 1499,
+      "discountPercentage": 10.23,
+      "rating": 4.43,
+      "stock": 68,
+      "brand": "Microsoft Surface",
+      "category": "laptops",
+      "images": [
+        "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4MCcc"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Infinix INBOOK",
+      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+      "price": 1099,
+      "discountPercentage": 11.83,
+      "rating": 4.54,
+      "stock": 96,
+      "brand": "Infinix",
+      "category": "laptops",
+      "images": [
+        "https://infinix-staging-s3.s3.ap-south-1.amazonaws.com/media/eikfkv5p/1000x1497_0000s_0000s_0001_5.jpg"
+      ]
+    }
+  ]
+}

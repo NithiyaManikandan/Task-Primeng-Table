@@ -1,0 +1,21 @@
+<app-table
+  *ngIf="productList"
+  [productList]="productList"
+  [cols]="cols"
+  [totalLength]="totalLength"
+  [productLimit]="productLimit"
+  [index]="pageIndex"
+  (pageIndex)="pageEvent($event)"
+  (action)="actionEvent($event)"
+  [pagination]="true"
+  [rowsPerPageOption]="rowsPerPageOption"
+></app-table>
+
+<app-form
+*ngIf="actionData"
+[actionData]="actionData"
+(formReseted)="testUpdate($event)"
+(UpdatedData)="updateForm($event)"
+></app-form>
+
+<app-toast *ngIf="(!showform && actionData) || actionOption"></app-toast>

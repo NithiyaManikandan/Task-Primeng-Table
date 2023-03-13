@@ -1,0 +1,27 @@
+<p-dialog p-dialog [(visible)]="formResetClicked">
+  <form [formGroup]="form">
+    <div *ngFor="let field of actionData | keyvalue">
+      <ng-container
+        *ngIf="
+          field.key != 'images' && field.key != 'action' && field.key != 'id'
+        "
+      >
+        <label for="">{{ field.key }}</label>
+        <input formControlName="{{ field.key }}" />
+      </ng-container>
+      <ng-container *ngIf="field.key == 'id'">
+        <label for="">{{ field.key }}</label>
+        <input formControlName="{{ field.key }}" [readonly]="true" />
+      </ng-container>
+    </div>
+    <button
+      pButton
+      pRipple
+      type="button"
+      label="Update"
+      class="p-button-rounded p-button-success"
+      [disabled]="form.invalid"
+      (click)="updateForm(form)"
+    ></button>
+  </form>
+</p-dialog>
