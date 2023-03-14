@@ -32,13 +32,13 @@ export class ProductTableComponent implements OnInit {
     this.loadProduct();
   }
   loadProduct() {
-    this.service.getAllProducts(this.productLimit, this.pageIndex).subscribe(
-      (res) => {
+    this.service.getAllProducts(this.productLimit, this.pageIndex).subscribe({
+      next: (res) => {
         this.totalLength = res.res.length;
         this.productList = res.filteredProducts;
       },
-      (err) => (this.actionOption = true)
-    );
+      error: (err) => (this.actionOption = true),
+    });
   }
 
   pageEvent(pageNumber: any) {
@@ -48,26 +48,24 @@ export class ProductTableComponent implements OnInit {
   }
 
   actionEvent($event: { option: string; id: number }) {
-
     if ($event.option == 'update') {
-      this.service.getProductById($event.id).subscribe(
-        (res) => {
+      this.service.getProductById($event.id).subscribe({
+        next: (res) => {
           this.showform = !this.showform;
           this.actionData = res;
           this.loadProduct();
         },
-        (err) => (this.actionOption = true)
-      );
+        error: (err) => (this.actionOption = true),
+      });
     } else if ($event.option == 'delete') {
-      this.service.deleteProduct($event.id).subscribe(
-        (res) => {
+      this.service.deleteProduct($event.id).subscribe({
+        next: (res) => {
           this.actionOption = true;
           this.loadProduct();
         },
-        (err) => (this.actionOption = true)
-      );
+        error: (err) => (this.actionOption = true),
+      });
     }
-
   }
 
   testUpdate(event: boolean) {
@@ -75,11 +73,11 @@ export class ProductTableComponent implements OnInit {
   }
 
   updateForm($event: FormGroup) {
-    this.service.updateProduct($event).subscribe(
-      (res) => {
+    this.service.updateProduct($event).subscribe({
+      next: (res) => {
         this.loadProduct();
       },
-      (err) => (this.actionOption = true)
-    );
+      error: (err) => (this.actionOption = true),
+    });
   }
 }
